@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad)",
+      "Bash(curl -sL -o /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/junit-platform-console-standalone.jar https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.jar)",
+      "Read(//c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/**)",
+      "Bash(javac -cp '/c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/out-main;/c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/junit-platform-console-standalone.jar' -d /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/out-test src/test/java/controller/IReparaturSteuerungTest.java)",
+      "Bash(echo \"TEST_COMPILE_EXIT=$?\")",
+      "Bash(cygpath -w /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/out-main)",
+      "Bash(cygpath -w /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/junit-platform-console-standalone.jar)",
+      "Bash(mkdir -p /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/jacoco)",
+      "Bash(curl -sL -o /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/jacoco/jacocoagent.jar https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar)",
+      "Bash(curl -sL -o /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/jacoco/jacococli.jar https://repo1.maven.org/maven2/org/jacoco/org.jacoco.cli/0.8.12/org.jacoco.cli-0.8.12-nodeps.jar)",
+      "Bash(javac -d /tmp/single-test-out -sourcepath src/main/java src/main/java/model/ReparaturVerwaltung.java)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(git mv *)",
+      "Bash(rmdir src/model)",
+      "Bash(cygpath -w /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/mout)",
+      "Bash(cygpath -w /c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/tout)",
+      "Bash(python3 *)",
+      "Bash(python \"/c/Users/User/AppData/Local/Temp/claude/D--licence-IV-Softwaretechnik-praktische-arbeit-16-Gbatkom-Mouliom-Abdel-prototyp-src-main-java/aaf2754b-38ec-40f0-8d11-1349de7752dc/scratchpad/metrics.py\" src/main/java)",
+      "Read(//tmp/**)",
+      "Bash(awk -F'methods=' '{split\\($2,a,\" \"\\); sum+=a[1]; n++} END{print \"sum=\"sum, \"n=\"n, \"avg=\"sum/n}')"
+    ]
+  }
+}

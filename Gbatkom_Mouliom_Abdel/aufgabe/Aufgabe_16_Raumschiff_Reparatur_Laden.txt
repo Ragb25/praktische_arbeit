@@ -1,0 +1,10 @@
+Dateiname: Aufgabe_16_Raumschiff_Reparatur_Laden.txt
+
+Aufgabentexte
+Ihre Aufgabe besteht in der Entwicklung eines Systems für die Reparatur eines Raumschiffs für einen Laden.
+
+Ein Raumschiff besteht aus mehreren Systemkomponenten. Es gibt die Komponentenarten Rumpf, Antrieb und Forschungsmodul. Alle Komponenten weisen eine Katalognummer, einen Namen, einen Preis und einen Energiebedarf auf. Der Rumpf hat zusätzlich den Parameter Energieerzeugung. Forschungsmodule werden in Teleskope und Bodenscanner unterteilt. Antriebe können chemisch oder ionenbasiert sein. Ein Raumschiff ist nur dann funktionsfähig, wenn der Rumpf genügend Energie für den Antrieb und das Forschungsmodul liefert. Zudem erfordern ionenbasierte Antriebe spezielle Rumpf-Ausführungen.
+
+Das System soll die Reparatur dieses Raumschiffs unterstützen. Der Kunde kann Reparaturen beauftragen. Falls bekannt ist, welches Teil/welche Komponente defekt ist, kann dies erfasst werden. Danach hat der Kunde die Möglichkeit, sich über den Reparaturstatus zu informieren.
+
+Der Reparaturprozess findet in einem Laden statt, in dem ein Mitarbeiter tätig ist. Da in diesem Laden ein Bonusprogramm eingeführt wurde, muss bei teilnehmenden Kunden bei der Reparatur auch dieser Bonus erfasst werden. Der Mitarbeiter soll die Kunden nach ihrer Bonuskarte fragen und Punkte im System verbuchen. Mitarbeiter können durch ihren Namen und ihre Umsätze und Kunden durch ihre Kundennummern, Namen und Bonuspunkte-Summen beschrieben werden.
