@@ -1,3 +1,6 @@
+# OOD
+In diesem Verzeichnis finden Sie alle UML-Diagramme
+
 # Raumschiff-Reparatursystem - Prototyp
 
 Prototypische Java/Swing-Anwendung fuer ein Raumschiff-Reparatursystem.
